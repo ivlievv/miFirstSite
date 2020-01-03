@@ -15,7 +15,9 @@
   height: 350px;
   border-bottom: 1px solid white;
   border-right: 1px solid white;
+  cursor: pointer;
 }
+
 
 .imagesItem:hover .imgContent{
   opacity: 1;

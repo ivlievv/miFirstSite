@@ -9,7 +9,7 @@
     "start": "NODE_ENV=development webpack-dev-server --open --config ./webpack_config/webpack.config.dev.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ihor Ivliev",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.7.3",

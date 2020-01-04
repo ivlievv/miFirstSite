@@ -1,0 +1,77 @@
+@import "theme";
+@import "break-points";
+@import "layout";
+
+.teamContainer{
+  padding: 100px 0 ;
+
+}
+
+.teamList{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.teamItem{
+  width: 25%;
+  padding: 0 15px;
+
+
+}
+
+.teamPhoto{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.teamName{
+  font-size: 22px;
+  color: #2d3033;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.role{
+  font-size: 13px;
+  color: $accent-color;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.teamText{
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #6c7279;
+  margin: 0 0 10px;
+}
+
+.teamIcons{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 0 ;
+}
+
+.teamSocialIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e8ecee;
+  margin: 0 5px 0 0 ;
+  border-radius: 3px;
+
+}
+
+.teamSocialIcon:hover{
+  background-color: $accent-color;
+  transition: background 0.3s linear;
+}
+
+.socialTeamIcon{
+  height: 18px;
+  width: 10.3px;
+}

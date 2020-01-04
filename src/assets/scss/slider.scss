@@ -1,0 +1,52 @@
+@import "break-points";
+@import "layout";
+@import "theme";
+
+.reviewsClient{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photoClient{
+  width: 50%;
+  height: 338.77px;
+  position: relative;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding-left: 100px;
+}
+
+.reviews{
+  background-color: #53354A;
+  overflow: hidden;
+  height: 338.77px
+}
+
+.textReviews{
+  font-family: 'Cardo', sans-serif;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 1.2;
+  color: white;
+  margin: 0 0 10px;
+}
+
+.authorImage{
+  position: absolute;
+  height: 338.77px;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.author{
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}

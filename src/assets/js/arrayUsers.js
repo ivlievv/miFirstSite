@@ -1,3 +1,4 @@
+/*
 fetch('./data/employees.json')
     .then(response => response.json())
     .then(addUsersToPage)
@@ -41,4 +42,4 @@ function addUsersToPage(users) {
 
     })
 
-}
+}*/

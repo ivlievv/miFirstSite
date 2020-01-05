@@ -76,3 +76,34 @@
 
 }
 
+@media screen and (max-width: $lg){
+  .teamItem{
+    width: 50%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .teamPhoto{
+    margin: 0 auto;
+  }
+
+  .teamIcons{
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: $sm){
+  .teamItem{
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .teamPhoto{
+    margin: 0 auto;
+  }
+
+  .teamIcons{
+    justify-content: space-around;
+  }
+}

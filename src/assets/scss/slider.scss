@@ -2,51 +2,61 @@
 @import "layout";
 @import "theme";
 
-.reviewsClient{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.photoClient{
-  width: 50%;
-  height: 338.77px;
-  position: relative;
-}
-
-.content{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 50%;
-  padding-left: 100px;
-}
-
 .reviews{
   background-color: #53354A;
   overflow: hidden;
-  height: 338.77px;
 }
 
-.textReviews{
+.reviewsItem{
+  display: flex;
+  flex-wrap: wrap;
+}
+.reviewsPhoto{
+  width: 50%;
+  height: 358px;
+  position: relative;
+}
+
+.authorReviews{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.reviewsContent{
+  width: 50%;
+  padding-left: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.reviewsText{
   font-family: 'Cardo', sans-serif;
   font-style: italic;
   font-size: 36px;
   line-height: 1.2;
   color: white;
-  margin: 0 0 10px;
+  margin-bottom: 20px;
 }
 
-.authorImage{
-  position: absolute;
-  height: 338.77px;
-  top: 0;
-  right: 0;
-  z-index: 1;
-}
-
-.author{
-  font-size: 14px;
+.reviewsAuthor{
+  font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
   color: white;
+}
+
+@media screen and (max-width: $lg){
+  .reviewsPhoto{
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .reviewsContent{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
 }

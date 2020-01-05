@@ -33,3 +33,15 @@
   color: #6c7279;
   margin: 0 0 10px;
 }
+
+@media screen and (max-width: $lg){
+  .bannerItem{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: $sm){
+  .bannerItem{
+    width: 100%;
+  }
+}

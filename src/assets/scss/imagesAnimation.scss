@@ -59,3 +59,16 @@
   font-size: 14px;
   color: white;
 }
+
+
+@media screen and (max-width: $lg){
+  .imagesItem{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: $sm){
+  .imagesItem{
+    width: 100%;
+  }
+}

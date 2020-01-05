@@ -1,0 +1,25 @@
+@import "break-points";
+@import "layout";
+@import "theme";
+
+.download{
+  padding: 100px 0;
+  text-align: center;
+}
+
+.downloadTitle{
+  font-size: 28px;
+  color: #2d3033;
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+.btnPadding{
+  padding: 15px 40px;
+}
+.downloadDescription{
+  font-size: 14px;
+  color: #2d3033;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 40px;
+}

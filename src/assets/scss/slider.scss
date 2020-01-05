@@ -23,6 +23,7 @@
   right: 0;
   transform: translateY(-50%);
   z-index: 1;
+
 }
 
 .reviewsContent{
@@ -31,6 +32,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 
 .reviewsText{
@@ -47,8 +49,39 @@
   font-weight: 700;
   text-transform: uppercase;
   color: white;
+  margin-bottom: 10px;
 }
 
+.buttonsSlider{
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.buttonPrev:hover, .buttonNext:hover{
+  background-color: white;
+  cursor: pointer;
+}
+
+.buttonPrev{
+  display: flex;
+  height: 11px;
+  width: 11px;
+  border-radius: 100%;
+  background-color: #C6CACC;
+  margin-right: 10px;
+
+}
+
+.buttonNext{
+  display: flex;
+  height: 11px;
+  width: 11px;
+  border-radius: 100%;
+  background-color:#C6CACC;
+
+}
 @media screen and (max-width: $lg){
   .reviewsPhoto{
     width: 100%;
@@ -59,4 +92,7 @@
     margin-bottom: 50px;
   }
 
+  .reviewsText{
+    font-size: 25px;
+  }
 }

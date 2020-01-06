@@ -7,5 +7,6 @@ import './assets/js/arrayUsers.js';
 import './assets/scss/team.scss';
 import './assets/scss/slider.scss';
 import './assets/scss/download.scss';
+import './assets/js/slider.js';
 
 

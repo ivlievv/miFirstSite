@@ -57,7 +57,7 @@ function createUserListItem(user) {
     const imgIcons = document.createElement('img');
     imgIcons.classList.add('socialTeamIcon');
     icons.appendChild(imgIcons);
-    imgIcons.innerText = `${user.contacts}`;
+
 
 
 

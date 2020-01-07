@@ -50,13 +50,45 @@ function createUserListItem(user) {
     icons.classList.add('teamIcons');
     teamItemContainer.appendChild(icons);
 
-    const linkIcons = document.createElement('a');
-    linkIcons.classList.add('teamSocialIcon');
-    icons.appendChild(linkIcons);
+    const linkIconsFacebook = document.createElement('a');
+    linkIconsFacebook.classList.add('teamSocialIcon');
+    icons.appendChild(linkIconsFacebook);
 
-    const imgIcons = document.createElement('img');
-    imgIcons.classList.add('socialTeamIcon');
-    icons.appendChild(imgIcons);
+    const imgIconsFacebook = document.createElement('img');
+    imgIconsFacebook.classList.add('socialTeamIcon');
+    icons.appendChild(imgIconsFacebook);
+
+    const linkIconsTwitter = document.createElement('a');
+    linkIconsTwitter.classList.add('teamSocialIcon');
+    icons.appendChild(linkIconsTwitter);
+
+    const imgIconsTwitter = document.createElement('img');
+    imgIconsTwitter.classList.add('socialTeamIcon');
+    icons.appendChild(imgIconsTwitter);
+
+    const linkIconsLinkedIn = document.createElement('a');
+    linkIconsLinkedIn.classList.add('teamSocialIcon');
+    icons.appendChild(linkIconsLinkedIn);
+
+    const imgIconsLinkedIn = document.createElement('img');
+    imgIconsLinkedIn.classList.add('socialTeamIcon');
+    icons.appendChild(imgIconsLinkedIn);
+
+    const linkIconsGooglePlus = document.createElement('a');
+    linkIconsGooglePlus.classList.add('teamSocialIcon');
+    icons.appendChild(linkIconsGooglePlus);
+
+    const imgIconsGooglePlus = document.createElement('img');
+    imgIconsGooglePlus.classList.add('socialTeamIcon');
+    icons.appendChild(imgIconsGooglePlus);
+
+    const linkIconsDribble = document.createElement('a');
+    linkIconsDribble.classList.add('teamSocialIcon');
+    icons.appendChild(linkIconsDribble);
+
+    const imgIconsDribble = document.createElement('img');
+    imgIconsDribble.classList.add('socialTeamIcon');
+    icons.appendChild(imgIconsDribble);
 
 
 

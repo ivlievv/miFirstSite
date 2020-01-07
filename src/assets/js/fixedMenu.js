@@ -1,6 +1,6 @@
 'use strict';
 
-let header = document.getElementById('fixedMenu');
+/*let header = document.getElementById('fixedMenu');
 
 window.onscroll = function () {
     if (window.scrollY > 20){
@@ -8,4 +8,4 @@ window.onscroll = function () {
     }else {
 
     }
-};
+};*/

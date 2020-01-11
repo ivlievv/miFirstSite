@@ -13,8 +13,21 @@
   font-weight: 300;
   margin: 0 0 10px;
 }
-.btnPadding{
+.btnDownload{
   padding: 15px 40px;
+  display: inline-block;
+  background-color: $accent-color;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btnDownload:hover{
+  background-color: #e52e2e;
 }
 .downloadDescription{
   font-size: 14px;

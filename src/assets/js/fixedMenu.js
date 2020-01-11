@@ -1,11 +1,13 @@
 'use strict';
 
-/*let header = document.getElementById('fixedMenu');
+let header = document.querySelector('#fixedMenu');
 
-window.onscroll = function () {
-    if (window.scrollY > 20){
-        header.style.backgroundColor = '#2D2E4A';
-    }else {
+document.body.onscroll = myFunction;
 
+function myFunction() {
+    if (window.pageYOffset >= 50) {
+        header.classList.add('fixed');
+    } else {
+        header.classList.remove('fixed');
     }
-};*/
+}

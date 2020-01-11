@@ -8,6 +8,11 @@ import './assets/scss/team.scss';
 import './assets/scss/slider.scss';
 import './assets/scss/download.scss';
 import './assets/js/slider.js';
+
 import './assets/js/fixedMenu.js';
+import './assets/js/navButton';
+import './assets/scss/navButton.scss';
+import './assets/scss/navigation.scss';
+
 
 

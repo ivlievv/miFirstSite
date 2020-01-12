@@ -1,3 +1,4 @@
+/*
 'use strict';
 
 fetch('./data/employees.json')
@@ -106,3 +107,4 @@ function addUsersToPage(users) {
 
     })
 }
+*/

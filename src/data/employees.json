@@ -4,11 +4,11 @@
     "role": "FOUNDER, CEO",
     "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
-      "facebook",
-      "twitter",
-      "linkedin",
-      "googlePlus",
-      "dribble"
+      "https://uk-ua.facebook.com/",
+      "https://twitter.com/?lang=ru",
+      "https://www.linkedin.com/",
+      "https://www.google.com.ua/?hl=ru",
+      "https://dribbble.com/"
     ],
     "profilePicture": "./assets/images/team-1.jpg"
   },
@@ -17,11 +17,11 @@
     "role": "CO-FOUNDER, DEVELOPER",
     "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
-      "facebook",
-      "twitter",
-      "linkedin",
-      "googlePlus",
-      "dribble"
+      "https://uk-ua.facebook.com/",
+      "https://twitter.com/?lang=ru",
+      "https://www.linkedin.com/",
+      "https://www.google.com.ua/?hl=ru",
+      "https://dribbble.com/"
     ],
     "profilePicture": "./assets/images/team-2.jpg"
   },
@@ -30,11 +30,11 @@
     "role": "UI DESIGNER",
     "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
-      "facebook",
-      "twitter",
-      "linkedin",
-      "googlePlus",
-      "dribble"
+      "https://uk-ua.facebook.com/",
+      "https://twitter.com/?lang=ru",
+      "https://www.linkedin.com/",
+      "https://www.google.com.ua/?hl=ru",
+      "https://dribbble.com/"
     ],
     "profilePicture": "./assets/images/team-3.jpg"
   },
@@ -43,11 +43,11 @@
     "role": "DATA SCIENTIST",
     "description": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
-      "facebook",
-      "twitter",
-      "linkedin",
-      "googlePlus",
-      "dribble"
+      "https://uk-ua.facebook.com/",
+      "https://twitter.com/?lang=ru",
+      "https://www.linkedin.com/",
+      "https://www.google.com.ua/?hl=ru",
+      "https://dribbble.com/"
     ],
     "profilePicture": "./assets/images/team-4.jpg"
   }

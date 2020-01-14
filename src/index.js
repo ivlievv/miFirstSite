@@ -11,8 +11,8 @@ import './assets/scss/download.scss';
 
 import './assets/js/slider.js';
 import './assets/js/fixedMenu.js';
-import './assets/js/navButton';
-import './assets/js/team/index';
+import './assets/js/navButton.js';
+import './assets/js/team/index.js';
 
 
 

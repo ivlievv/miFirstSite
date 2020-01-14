@@ -2,108 +2,83 @@
 @import "break-points";
 @import "layout";
 
-.teamContainer{
-  padding: 100px 0 ;
-
+#teams{
+  padding: 100px 0;
 }
 
-.teamList{
+.teamContainer{
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 30px;
+  justify-content: center;
 }
 
-.teamItem{
-  width: 25%;
-  padding: 0 15px;
-
-
+.teamCard{
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-right: 20px;
 }
 
-.teamPhoto{
-  display: block;
-  max-width: 100%;
-  height: auto;
+.imageContainer{
+  width: 100%;
 }
 
-.teamName{
+.imageContainer img{
+  width: 100%;
+}
+
+.name{
   font-size: 22px;
-  color: #2d3033;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  color:  #2d3033;
+  margin: 20px 0 10px 0;
+
 }
 
 .role{
-  font-size: 13px;
   color: $accent-color;
-  text-transform: uppercase;
+  font-size: 13px;
   margin-bottom: 20px;
-  font-weight: 400;
 }
 
-.teamText{
+.description{
   font-size: 14px;
   line-height: 22.4px;
   color: #6c7279;
-  margin: 0 0 10px;
+  flex-grow: 1;
 }
 
-.teamIcons{
-  display: flex;
-  justify-content: space-between;
-  margin: 30px 0 0 ;
-}
-
-.teamSocialIcon{
+.networkLink{
+  margin-top: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
+  margin-bottom: 30px;
+  width: 225px;
+}
+
+.networkLink a{
   border: 1px solid #e8ecee;
-  margin: 0 5px 0 0 ;
   border-radius: 3px;
-
+  color: #C6CACC;
+  font-size: 18px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+  margin-right: 5px;
 }
 
-.teamSocialIcon:hover{
+.networkLink a:hover, a:active{
+  color: white;
+  border-color: $accent-color;
   background-color: $accent-color;
-  transition: background 0.3s linear;
 }
 
-.socialTeamIcon{
-  height: 18px;
-
-}
-
-@media screen and (max-width: $lg){
-  .teamItem{
-    width: 50%;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-
-  .teamPhoto{
-    margin: 0 auto;
-  }
-
-  .teamIcons{
-    justify-content: space-around;
+@media screen and (max-width: $xl){
+  .teamCard{
+    margin-right: 70px;
+    margin-left: 70px;
   }
 }
 
-@media screen and (max-width: $sm){
-  .teamItem{
-    width: 100%;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-
-  .teamPhoto{
-    margin: 0 auto;
-  }
-
-  .teamIcons{
-    justify-content: space-around;
-  }
-}

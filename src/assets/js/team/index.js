@@ -1,4 +1,5 @@
 'use strict';
+/*
 
 fetch('./data/employees.json')
     .then(response => response.json())
@@ -106,3 +107,4 @@ function addUsersToPage(users) {
 
     })
 }
+*/

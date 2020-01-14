@@ -1,4 +1,3 @@
-/*
 'use strict';
 
 fetch('./data/employees.json')
@@ -99,7 +98,7 @@ function createUserListItem(user) {
 
 function addUsersToPage(users) {
 
-    const usersList = document.getElementById('team');
+    const usersList = document.getElementsByClassName('teamList')[0];
     users.forEach(function (user) {
         const newUserListItem = createUserListItem(user);
 
@@ -107,4 +106,3 @@ function addUsersToPage(users) {
 
     })
 }
-*/

@@ -15,7 +15,7 @@
 }
 .reviewsPhoto{
   width: 50%;
-  height: 500px;
+  max-height: 500px;
   overflow: hidden;
   position: relative;
 }
@@ -83,7 +83,8 @@
   background-color:#C6CACC;
 
 }
-@media screen and (max-width: $lg){
+
+@media screen and (max-width: $xl){
   .reviewsPhoto{
     width: 100%;
     margin-bottom: 100px;
@@ -91,10 +92,41 @@
   .reviewsContent{
     width: 100%;
     margin-bottom: 50px;
+    padding: 0 70px;
+  }
+
+  .reviewsText{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: $md){
+  .reviewsPhoto{
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .reviewsContent{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 0 50px;
+  }
+
+  .reviewsText{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .reviewsPhoto{
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  .reviewsContent{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 0 30px;
   }
 
   .reviewsText{
     font-size: 25px;
   }
 }
-

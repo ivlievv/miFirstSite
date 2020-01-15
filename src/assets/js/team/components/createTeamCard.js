@@ -10,7 +10,7 @@ export function createTeamCard(team) {
     teamCard.appendChild(teamImage);
 
     const teamName = createTeamNameElem(team);
-    teamName.appendChild(teamName);
+    teamCard.appendChild(teamName);
 
     const teamRole = createTeamRoleElem(team);
     teamCard.appendChild(teamRole);
@@ -29,7 +29,7 @@ function createTeamImageElem(team) {
     imageContainer.classList.add('imageContainer');
 
     const teamImage = new Image();
-    teamImage.src = teamImage.profilePicture;
+    teamImage.src = team.profilePicture;
     teamImage.alt = 'profile';
 
     imageContainer.appendChild(teamImage);
